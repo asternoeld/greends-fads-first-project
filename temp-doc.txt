@@ -1,0 +1,5 @@
+5.1 The command `cp ../temp-* .` copies all the files from the parent directory (..) whose names start with "temp-" into the current directory (.). In my case, it copied temp-average.py, temp-data.csv, and temp-doc.txt from my my-first-project folder into the greends-fads-first-project folder. I learned that `cp` means copy, `..` means go one level up, `*` means any matching characters, and `.` means the current folder.
+
+5.2 I did not need to run `git init` because when I cloned the repository from GitHub, it was already a git repository. The `git clone` command automatically creates the .git folder and connects it to the remote repository, so I could start adding and committing files immediately.
+
+5.3 Yes, I committed the copied files. The steps I followed were: first checking with `git status` to see untracked files, then using `git add .` to stage them, then `git commit -m "added temp files from my-first-project"` to save the changes, and finally `git push origin main` to upload them to GitHub. I followed these steps with ChatGPT’s guidance to make sure I understood what each command did.
